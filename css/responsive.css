@@ -1,0 +1,25 @@
+@media (max-width: 1080px) {
+  .hero-grid { grid-template-columns: 1fr 320px; }
+  .hero-photo { display: none; }
+}
+
+@media (max-width: 860px) {
+  nav { padding: 0 20px; }
+  .nav-links { display: none; }
+  .wrap { padding: 0 20px; }
+  .hero-grid { grid-template-columns: 1fr; }
+  .hero-photo { display: block; width: 55%; margin: 16px auto 0; }
+  .terminal { width: 100%; }
+  .about-grid { grid-template-columns: 1fr; }
+  .stack-grid { grid-template-columns: 1fr 1fr; }
+  .proj-grid { grid-template-columns: 1fr; }
+  .cert-grid { grid-template-columns: 1fr 1fr; }
+  .eitem { grid-template-columns: 1fr; }
+  footer { flex-direction: column; gap: 8px; text-align: center; padding: 20px; }
+}
+
+@media (max-width: 520px) {
+  .stack-grid { grid-template-columns: 1fr; }
+  .cert-grid { grid-template-columns: 1fr; }
+  .stats-box { grid-template-columns: 1fr 1fr; }
+}

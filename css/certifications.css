@@ -1,0 +1,18 @@
+#certifications { padding: 100px 0; }
+
+.cert-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; background: var(--line); }
+
+.ccard { background: var(--bg2); padding: 28px 24px; transition: background 0.2s; }
+.ccard:hover { background: var(--bg3); }
+
+.c-iss { font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--amber); margin-bottom: 10px; }
+.c-name { font-family: var(--sans); font-size: 15px; font-weight: 700; color: var(--text); line-height: 1.35; }
+
+.c-badge {
+  display: inline-block; margin-top: 12px;
+  background: rgba(227,179,65,0.1); border: 1px solid rgba(227,179,65,0.25);
+  padding: 3px 10px; font-size: 10px; color: var(--amber); letter-spacing: 0.08em;
+}
+.c-badge.blue {
+  background: rgba(88,166,255,0.1); border-color: rgba(88,166,255,0.25); color: var(--accent);
+}

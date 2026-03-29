@@ -1,0 +1,25 @@
+#experience {
+  padding: 100px 0;
+  background: var(--bg2);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.exp-list { display: flex; flex-direction: column; gap: 1px; background: var(--line); }
+
+.eitem {
+  background: var(--bg2); padding: 28px 32px;
+  display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: start;
+  transition: background 0.2s;
+}
+.eitem:hover { background: var(--bg3); }
+
+.e-role { font-family: var(--sans); font-size: 17px; font-weight: 700; color: var(--text); margin-bottom: 4px; }
+.e-co { font-size: 13px; color: var(--accent); margin-bottom: 12px; }
+
+.e-buls { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+.e-buls li { display: flex; gap: 10px; font-size: 13px; color: var(--muted); line-height: 1.65; }
+.e-buls li::before { content: '▸'; color: var(--green2); flex-shrink: 0; margin-top: 2px; font-size: 11px; }
+.e-buls li strong { color: var(--text); font-weight: 500; }
+
+.e-date { font-size: 11px; color: var(--muted2); letter-spacing: 0.06em; padding-top: 4px; text-align: right; white-space: nowrap; }

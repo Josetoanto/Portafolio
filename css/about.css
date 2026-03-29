@@ -1,0 +1,22 @@
+#about { padding: 100px 0; }
+
+.about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start; }
+
+.about-p { font-size: 14px; line-height: 1.9; color: var(--muted); margin-bottom: 14px; }
+.about-p strong { color: var(--text); }
+
+.about-bullets { list-style: none; margin-top: 20px; display: flex; flex-direction: column; gap: 10px; }
+.about-bullets li { display: flex; gap: 10px; font-size: 13px; color: var(--muted); }
+.about-bullets li::before { content: '▸'; color: var(--green); flex-shrink: 0; margin-top: 2px; }
+
+.stats-box { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--line); }
+.stat { background: var(--bg2); padding: 22px 24px; }
+.stat-n { font-family: var(--sans); font-size: 38px; font-weight: 800; line-height: 1; color: var(--text); letter-spacing: -0.03em; }
+.stat-n em { color: var(--green); font-style: normal; }
+.stat-l { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-top: 4px; }
+
+.ventures { background: var(--bg2); padding: 22px 24px; grid-column: 1/-1; margin-top: 1px; }
+.v-lbl { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; }
+.v-wrap { display: flex; flex-wrap: wrap; gap: 8px; }
+.vtag { border: 1px solid var(--line2); padding: 4px 12px; font-size: 11px; color: var(--muted); }
+.vtag.on { border-color: var(--green2); color: var(--green); }
