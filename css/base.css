@@ -56,3 +56,13 @@ section { position: relative; z-index: 1; }
   transition: opacity 0.6s ease, transform 0.6s ease;
 }
 .reveal.on { opacity: 1; transform: translateY(0); }
+
+/* ── Pulse dot (escasez) ── */
+.pulse-dot {
+  display: inline-block;
+  width: 8px; height: 8px;
+  background: var(--green);
+  border-radius: 50%;
+  animation: pulse 2s ease infinite;
+  flex-shrink: 0;
+}

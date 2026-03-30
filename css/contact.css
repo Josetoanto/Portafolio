@@ -4,7 +4,20 @@
 }
 
 .contact-inner { text-align: center; max-width: 620px; margin: 0 auto; }
+
+.c-availability {
+  display: inline-flex; align-items: center; gap: 10px;
+  background: rgba(57,211,83,0.08);
+  border: 1px solid rgba(57,211,83,0.25);
+  padding: 8px 20px;
+  font-size: 12px; color: var(--green);
+  letter-spacing: 0.04em;
+  margin-bottom: 24px;
+}
+.c-availability strong { color: var(--text); }
+
 .c-desc { font-size: 14px; color: var(--muted); line-height: 1.9; margin-bottom: 40px; }
+.c-desc strong { color: var(--amber); }
 
 .c-links { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-bottom: 48px; }
 .c-link {

@@ -8,6 +8,11 @@
   50%       { opacity: 0; }
 }
 
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(57,211,83,0.5); }
+  50%      { box-shadow: 0 0 0 6px rgba(57,211,83,0); }
+}
+
 @keyframes scroll {
   0%   { transform: scaleY(0); transform-origin: top; }
   49%  { transform: scaleY(1); transform-origin: top; }
