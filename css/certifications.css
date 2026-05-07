@@ -16,3 +16,17 @@
 .c-badge.blue {
   background: rgba(88,166,255,0.1); border-color: rgba(88,166,255,0.25); color: var(--accent);
 }
+
+.c-link-cert {
+  display: inline-flex;
+  margin-top: 14px;
+  padding: 8px 12px;
+  font-size: 11px;
+  background: rgba(31,111,235,0.06);
+  border: 1px solid rgba(31,111,235,0.18);
+  color: var(--accent);
+}
+.c-link-cert:hover {
+  background: rgba(31,111,235,0.12);
+  border-color: var(--accent2);
+}

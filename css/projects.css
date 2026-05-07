@@ -28,3 +28,11 @@
   font-size: 12px; color: var(--muted); line-height: 1.75;
 }
 .p-xyz strong { color: var(--green); }
+
+.p-link {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s, color 0.2s;
+}
+.p-link:hover { color: var(--text); border-color: var(--accent2); }
