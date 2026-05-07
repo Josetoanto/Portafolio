@@ -30,7 +30,10 @@
 .c-link i { font-size: 15px; }
 
 .c-email {
-  font-family: var(--sans); font-size: clamp(15px, 2vw, 22px);
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
   font-weight: 700; color: var(--text); text-decoration: none;
   border-bottom: 2px solid var(--accent2); padding-bottom: 4px;
   transition: color 0.2s, border-color 0.2s;
